@@ -1,1 +1,1 @@
-worker: bash Mustafasadk
+worker: bash mustafaassadk
