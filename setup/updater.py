@@ -37,8 +37,8 @@ async def runcmd(cmd: str) -> Tuple[str, str, int, int]:
     )
 
 
-async def update_requirements(main , Mustafasadk):
-    a, r = await lines_differnce(main, Mustafasadk)
+async def update_requirements(main , mustafaassadk):
+    a, r = await lines_differnce(main, mustafaassadk)
     try:
         for i in a:
             await runcmd(f"pip install {i}")
